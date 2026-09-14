@@ -14,7 +14,7 @@ async function calculatePay(employeeId, month, year) {
 
   const start = new Date(year, month - 1, 1);
   const end = new Date(year, month, 1);
-  const totalDaysInMonth = new Date(year, month, 0).getDate();
+  const totalDaysInMonth = new Date(year, month, 0).getDatgit e();
 
   const attendanceRecords = await Attendance.find({
     employeeId,
