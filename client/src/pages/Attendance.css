@@ -1,0 +1,63 @@
+
+.attendance { padding: 0 0 40px; }
+
+.attendance__header {
+  padding: 24px 32px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.attendance__title { font-size: 20px; font-weight: 600; margin: 0; color: #17213d; }
+.attendance__subtitle { font-size: 12px; color: #6b7280; margin: 4px 0 0; }
+
+.attendance__form {
+  margin: 20px 32px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.2fr auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.form-field label { display: block; font-size: 11px; color: #6b7280; margin-bottom: 5px; }
+.form-field select,
+.form-field input {
+  width: 100%;
+  font-size: 13px;
+  padding: 9px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 18px;
+  background: #17213d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.attendance__success {
+  margin: 0 32px 16px;
+  padding: 10px 14px;
+  background: #e7f8ee;
+  color: #16a34a;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.attendance__error {
+  margin: 0 32px 16px;
+  padding: 10px 14px;
+  background: #fef2f2;
+  color: #dc2626;
+  border-radius: 8px;
+  font-size: 12px;
+}

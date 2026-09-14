@@ -1,0 +1,100 @@
+.employees { padding: 0 0 40px; }
+
+.employees__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.employees__title { font-size: 20px; font-weight: 600; margin: 0; color: #17213d; }
+.employees__subtitle { font-size: 12px; color: #6b7280; margin: 4px 0 0; }
+
+.btn-primary {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 18px;
+  background: #17213d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.employees__form-card {
+  margin: 20px 32px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 22px 24px;
+}
+
+.employees__section-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 18px 0 12px;
+}
+
+.employees__section-title:first-child { margin-top: 0; }
+
+.employees__form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.form-field label { display: block; font-size: 11px; color: #6b7280; margin-bottom: 5px; }
+.form-field input {
+  width: 100%;
+  font-size: 13px;
+  padding: 9px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.employees__table-wrap {
+  margin: 0 32px 20px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table.employees__table { width: 100%; border-collapse: collapse; }
+
+.employees__table thead th {
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #9ca3af;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fafbfc;
+}
+
+.employees__table tbody td {
+  padding: 12px 20px;
+  font-size: 13px;
+  color: #1f2937;
+  border-bottom: 1px solid #f1f2f5;
+}
+
+.employees__table tbody tr:last-child td { border-bottom: none; }
+
+.emp-id { font-weight: 600; color: #17213d; }
+
+.employees__error {
+  margin: 16px 32px 0;
+  padding: 10px 14px;
+  background: #fef2f2;
+  color: #dc2626;
+  border-radius: 8px;
+  font-size: 12px;
+}
